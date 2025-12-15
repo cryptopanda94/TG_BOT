@@ -43,7 +43,7 @@
 
         async function fetchCoinData() {
             try {
-                const response = await fetch(`https://coinselection.fun/appApi/fetch_coin_bybit.php?timeframe=${currentTimeframe}`);
+                const response = await fetch(`x${currentTimeframe}`);
                 const data = await response.json();
 
                 // Extract and parse coin data
@@ -115,3 +115,4 @@
     </script>
 </body>
 </html>
+

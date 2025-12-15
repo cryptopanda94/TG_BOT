@@ -4,11 +4,11 @@ import json
 from flask import Flask, request
 
 # ✅ Correct Telegram Bot Token (Make sure this is a string!)
-TELEGRAM_BOT_TOKEN = "7728554236:AAFFmvsEyHCudk6C1_uMqN5CHAFWfF0UrH8"
-TELEGRAM_CHAT_ID = "5462964617"  # ✅ Your Chat ID
+TELEGRAM_BOT_TOKEN = "x"
+TELEGRAM_CHAT_ID = "x"  # ✅ Your Chat ID
 
 # ✅ API endpoint for fetching crypto data
-API_URL = "https://coinselection.fun/appApi/fetch_coin_bybit.php?timeframe=15m"
+API_URL = "x"
 
 # ✅ Flask app for handling Telegram webhook
 app = Flask(__name__)
@@ -114,3 +114,4 @@ if __name__ == "__main__":
     thread = Thread(target=main)
     thread.start()
     app.run(host="0.0.0.0", port=5000)
+
